@@ -27,6 +27,8 @@ function SalmonCookies(minCustomers, maxCustomers, avgSales, storeName) {
       this.totalCookies += hourWorthOfCookies;
     }
   };
+
+  
   this.render = function() {
     this.calcCookiesPerHour();
     var trEl = document.createElement('tr');
@@ -111,3 +113,4 @@ function getRandomInt(min, max) {
 makeHeaderRow();
 renderAllStores();
 hourlyTotals();
+

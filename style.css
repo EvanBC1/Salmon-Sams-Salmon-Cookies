@@ -10,4 +10,9 @@ td {
   padding: 10px;
   border: 1px solid black;
   background: white;
+  
+}
+label {
+  display:block;
+  margin-top: 10px;
 }
